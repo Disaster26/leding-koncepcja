@@ -56,8 +56,8 @@ button,input,select,textarea{font:inherit;color:inherit}
 .panel .go{margin-top:18px;width:100%;justify-content:space-between}
 
 /* ---------- intro kategorii ---------- */
-.intro{min-height:calc(100svh - var(--hh));display:flex;flex-direction:column;justify-content:center;padding:34px 0 40px;
-  background:#fff url(img/breadcrumb-bg.webp) top center/cover no-repeat;background-size:100% 50%}
+.intro{display:flex;flex-direction:column;justify-content:center;padding:70px 0 0;
+  background:#fff url(img/breadcrumb-bg.webp) top center/cover no-repeat;background-size:100% 220px}
 .crumbs{color:#fff;font-weight:600;font-size:15px;margin-bottom:24px}
 .crumbs a:hover{text-decoration:underline}
 .crumbs span{margin:0 6px}
@@ -70,7 +70,7 @@ button,input,select,textarea{font:inherit;color:inherit}
 .cat .ask p{flex:1 1 360px;min-width:0;line-height:1.6;max-width:560px}
 
 /* ---------- produkty ---------- */
-.shop{padding:70px 0 40px}
+.shop{padding:56px 0 40px}
 .shop .wrap{display:grid;grid-template-columns:300px minmax(0,1fr);gap:50px}
 .filters h2{font-size:22px;margin:0 0 22px}
 .filters h3{font-size:14px;font-weight:600;margin:20px 0 10px}
@@ -242,7 +242,7 @@ footer .demo{font-size:13px;color:var(--mut);padding:0 0 22px}
 /* ---------- komputer niski / sredni ---------- */
 @media (max-width:1320px){.menu a{font-size:13.5px}}
 @media (max-height:820px) and (min-width:1200px){
-  .intro{padding:24px 0 28px}
+  .intro{padding:50px 0 0}
   .cat{padding:40px 48px;gap:44px;grid-template-columns:220px minmax(0,1fr)}
   .cat-img{width:220px;height:220px}
   .cat h1{margin-bottom:12px}
@@ -276,7 +276,7 @@ footer .demo{font-size:13px;color:var(--mut);padding:0 0 22px}
   .wrap{width:calc(100% - 32px)}
   .band .wrap{height:68px}
   .logo img{width:54px;height:53px}
-  .intro{padding:16px 0 20px;background-size:100% 150px;justify-content:flex-start}
+  .intro{padding:16px 0 0;background-size:100% 150px;justify-content:flex-start}
   .crumbs{font-size:13px;margin-bottom:12px}
   .cat{display:block;padding:18px 18px 20px;border-radius:22px}
   .cat::after{content:"";display:table;clear:both}
@@ -288,7 +288,7 @@ footer .demo{font-size:13px;color:var(--mut);padding:0 0 22px}
   .cat .ask p{flex-basis:100%;font-size:14px;clear:both}
   .cat .ask{clear:both}
   .cat .ask .pill{width:100%;justify-content:space-between;height:48px}
-  .shop{padding:44px 0 30px}
+  .shop{padding:28px 0 30px}
   .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
   .prod .pd{padding:12px 12px 14px}
   .prod h3{font-size:14px;margin-bottom:10px}
